@@ -91,6 +91,8 @@
     "lint:text": "textlint src/pages/**/index.md",
     "lint:textfix": "textlint --fix src/pages/**/index.md",
     "precommit": "lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "blog": "sh sh_scripts/blog.sh $opt $path $title",
+    "sss": "echo $1"
   }
 }

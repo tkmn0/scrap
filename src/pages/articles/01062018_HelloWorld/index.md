@@ -4,7 +4,7 @@ date: "2018-01-06T23:46:37.121Z"
 layout: post
 path: "/Hello_World/"
 categories:
-  - 雑記
+ - 雑記
 description: ""
 ---
 
