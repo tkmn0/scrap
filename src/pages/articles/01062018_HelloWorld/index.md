@@ -1,15 +1,17 @@
 ---
-title: My Second Post!
-date: "2015-05-04T23:46:37.121Z"
+title: TECH Blog 始めます
+date: "2018-01-06T23:46:37.121Z"
 layout: post
-path: "/my-second-post-2/"
+path: "/Hello_World/"
 categories:
-  - FrontEnd
-description: "Civil society; save lives pathway to a better life public-private partnerships solution, tackle, protect UNHCR social movement Jane Addams sustainable campaign respond equality."
+  - 雑記
+description: ""
 ---
 
-Wow! I love blogging so much already.
+技術ブログを始めることになりました。
 <!--more-->
-Did you know that "despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich."? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+技術ブログといっても、メモレベルのことばかりになるやもしれませんが。
+ちなみに、Gatsby という静的 web ページ制作のためのフレームワークを使用しました。React.js で動いています。どうですかー？ロード速いですか？
 
-Yeah, I didn't either.
+これからページをいじっていこうと思っています。
+React.js と、scss を勉強します。
