@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap.svg?branch=master)](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap)
+<!-- [![Build Status](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap.svg?branch=master)](https://travis-ci.org/jaxx2104/gatsby-starter-bootstrap)
 [![dependency Status](https://img.shields.io/david/jaxx2104/gatsby-starter-bootstrap.svg?style=flat-square)](https://david-dm.org/jaxx2104/gatsby-starter-bootstrap#info=dependencies)
 [![Known Vulnerabilities](https://snyk.io/test/github/jaxx2104/gatsby-starter-bootstrap/badge.svg)](https://snyk.io/test/github/jaxx2104/gatsby-starter-bootstrap)
 
@@ -31,5 +31,6 @@ develop
 `gatsby develop`
 
 ### Custom Theme
-`/src/layouts/gatsrap.css`
+`/src/layouts/gatsrap.css` -->
 
+## This is tech blog using Gatsby with the thema gatstrap.
