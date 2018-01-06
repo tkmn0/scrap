@@ -2,12 +2,12 @@ module.exports = {
   siteMetadata: {
     title: 'n0の断片',
     description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: '',
+    siteUrl: 'https://tkmn0.github.io/scrap/',
     author: 'n0',
     twitter: 'n0',
     adsense: '',
   },
-  pathPrefix: '/',
+  pathPrefix: '/scrap',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
