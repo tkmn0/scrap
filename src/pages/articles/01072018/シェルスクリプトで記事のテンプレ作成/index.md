@@ -17,12 +17,12 @@ npm run blog -- -w タイトル パス
 このコマンドでテンプレートを作成する。
 <!--more-->
 ### やったこと
-- 1. shellscriptを書く
-- 2. package.jsonの中身をいじる
+- 1. shellscript を書く
+- 2. package.json の中身をいじる
     
 ## 1. shellscriptを書く
 ---
-blog.shを作成
+blog.sh を作成
 ```powershell
 #blog.sh
 #!/bin/bash
@@ -115,15 +115,15 @@ fi
 ---
 - ### getpts + while
 getopts でオプションを決めます。
-今回は、後々 -p　でpostの処理を追加する予定なので、pとwの選択肢があります。[参考](https://qiita.com/2zk/items/80a8376f2feca02fcee2)
+今回は、後々 -p　で post の処理を追加する予定なので、p と w の選択肢があります。[参考](https://qiita.com/2zk/items/80a8376f2feca02fcee2)
 - ### write関数
 ここで、パス、タイトルの指定ができます。
 /articles/DATE/TITLE/index.md
 となります。
 この時に、タイトルが被ったら
-/articles/DATE/TITLE(1)/index.mdになるようにwhile文をぶん回してます。
+/articles/DATE/TITLE(1)/index.md になるように while 文をぶん回してます。
 - ### echo hogehoge > index.md
-この書き方で、"hogehoge"がindex.mdに書き込まれます    
+この書き方で、"hogehoge"が index.md に書き込まれます    
     ※"追加"の場合は > ではなく >> にする。
 - ### メモ
    #### 条件式
@@ -166,17 +166,17 @@ getopts でオプションを決めます。
   }
 ...
 ```
-package.jsonのscriptsの部分に書き加えることで,  
+package.json の scripts の部分に書き加えることで,  
 ``npm run hogehoge``  
 コマンドを使えるようになります。  
 今回は、``blog``というコマンドを追加しました。  
-ポイントとしては、　上記hogehogeコマンドを引数(オプションとか)を含めて叩きたい時は  ``npm run hogehoge -- 引数1 引数2 引数3 ..``  
+ポイントとしては、　上記 hogehoge コマンドを引数(オプションとか)を含めて叩きたい時は  ``npm run hogehoge -- 引数1 引数2 引数3 ..``  
 とするところでしょうか。  
-blogコマンドが叩かれたら、shコマンドを叩いて、引数を渡す、といった挙動になります。
+blog コマンドが叩かれたら、sh コマンドを叩いて、引数を渡す、といった挙動になります。
 
 ### 所感
 ---
 やりたいことができてよかったです。
-shellscriptは文法がなかなか特殊だったので、若干苦戦しましたかね。  
-shellscriptの中で普段使ってるコマンドを叩けるのが新鮮でした。  
-最初は.zshrcの中に書こうか迷ってたのですが、プロジェクト内にshファイルを置いて、npmのコマンドで叩けるようになったのでよかったです。
+shellscript は文法がなかなか特殊だったので、若干苦戦しましたかね。  
+shellscript の中で普段使ってるコマンドを叩けるのが新鮮でした。  
+最初は.zshrc の中に書こうか迷ってたのですが、プロジェクト内に sh ファイルを置いて、npm のコマンドで叩けるようになったのでよかったです。

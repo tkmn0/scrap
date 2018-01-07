@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'n0の断片',
-    description: 'Gatsby starter for bootstrap a blog',
+    description: 'メモとか、スニペットとか',
     siteUrl: 'https://tkmn0.github.io/scrap/',
     author: 'n0',
     twitter: 'n0',
