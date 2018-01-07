@@ -1,8 +1,12 @@
 {
   "assetsByChunkName": {
+    "path---01072018-hotkey": [
+      "path---01072018-hotkey-ffa992bdb14481beb949.js",
+      "path---01072018-hotkey-ffa992bdb14481beb949.js.map"
+    ],
     "path---01072018-shell-script": [
-      "path---01072018-shell-script-472ffde351ac4b576502.js",
-      "path---01072018-shell-script-472ffde351ac4b576502.js.map"
+      "path---01072018-shell-script-6b8438364144c6035e89.js",
+      "path---01072018-shell-script-6b8438364144c6035e89.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-d3f551998c4803ad63fe.js",
@@ -21,16 +25,16 @@
       "component---src-templates-blog-post-js-5dbc39a8a471663b7d9d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9eafd922e83e5c094115.js",
-      "component---src-layouts-index-js-9eafd922e83e5c094115.js.map"
+      "component---src-layouts-index-js-3e3cd1c23398b6fa73a0.js",
+      "component---src-layouts-index-js-3e3cd1c23398b6fa73a0.js.map"
     ],
     "path---index": [
-      "path---index-db155495cc1c70193d60.js",
-      "path---index-db155495cc1c70193d60.js.map"
+      "path---index-15b5fa19a920c7444754.js",
+      "path---index-15b5fa19a920c7444754.js.map"
     ],
     "path---hello-world": [
-      "path---hello-world-6f5ab78d08cc2b22c89a.js",
-      "path---hello-world-6f5ab78d08cc2b22c89a.js.map"
+      "path---hello-world-de7a6318f333b37aef95.js",
+      "path---hello-world-de7a6318f333b37aef95.js.map"
     ],
     "commons": [
       "commons-445bf986b5bd5bec93ca.js",
@@ -43,14 +47,14 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9b37a803c070513d60c5.js",
+      "app-c6245ee52382643d6cc5.js",
       "build-js-styles.css",
-      "app-9b37a803c070513d60c5.js.map",
+      "app-c6245ee52382643d6cc5.js.map",
       "build-js-styles.css.map"
     ],
     "path---01072018-gatsby-01": [
-      "path---01072018-gatsby-01-81517c64afcd851e0aac.js",
-      "path---01072018-gatsby-01-81517c64afcd851e0aac.js.map"
+      "path---01072018-gatsby-01-51058e918a63f4b195a2.js",
+      "path---01072018-gatsby-01-51058e918a63f4b195a2.js.map"
     ]
   }
 }
