@@ -34,6 +34,7 @@ class BlogIndex extends React.Component {
         <Helmet
           title={get(site, 'title')}
           meta={[
+            { name: 'description', content: 'n0 blog tech n0の断片' },
             { name: 'twitter:card', content: 'summary' },
             { name: 'twitter:site', content: `@${get(site, 'twitter')}` },
             { property: 'og:title', content: get(site, 'title') },
