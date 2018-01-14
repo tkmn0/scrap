@@ -1,11 +1,12 @@
 ---
-title: Unirxを触ってみる（１）
+title: UniRxを触ってみる（１）
 date: "2018-01-13T03:50:40.121Z"
 layout: post
-path: "/01132018/unirx_01/"
+path: "/01132018/UniRx_01/"
 categories:
- - 
-description: 
+ - UniRx
+ - C#
+description: ホゲホゲほげ
 ---
 Reacive Extentions の一つであるUniRxを触ってみる。
 <!--more-->
@@ -13,12 +14,12 @@ Reacive Extentions の一つであるUniRxを触ってみる。
 ## UniRxとは?
 ---
 neuecc さんによるUnity用のRxライブらりなのだ(小並感)    
-[Unirxのgithub](https://github.com/neuecc/UniRx)
+[UniRxのgithub](https://github.com/neuecc/UniRx)
 以下、README.mdを読んでいきましょう。    
 「UniRxって何?」 て聞かれた時のために。
+
 ## README.md (!原文ママ)
 ---    
-
 >UniRx (Reactive Extensions for Unity) is a reimplementation of the .NET Reactive Extensions. The Official Rx implementation is great but doesn't work on Unity and has issues with iOS IL2CPP compatibility.
 - UniRxは .Net用のリアクティブエクステンションを再実装したものだと。
 - 公式の.Net用のも素晴らしいけど、Unityで動かないし、iOSと、IL2CPPでビルドした時に問題があるからね。

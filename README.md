@@ -33,4 +33,4 @@ develop
 ### Custom Theme
 `/src/layouts/gatsrap.css` -->
 
-## This is tech blog using Gatsby with the thema gatstrap.
+## This is tech blog using Gatsby with the theme "gatstrap".
