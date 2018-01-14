@@ -8,15 +8,15 @@ categories:
  - C#
 description: ホゲホゲほげ
 ---
-Reacive Extentions の一つであるUniRxを触ってみる。
+Reacive Extentions の一つである UniRx を触ってみる。
 <!--more-->
 
 ## UniRxとは?
 ---
-neuecc さんによるUnity用のRxライブらりなのだ(小並感)    
+neuecc さんによる Unity 用の Rx ライブらりなのだ(小並感)    
 [UniRxのgithub](https://github.com/neuecc/UniRx)
-以下、README.mdを読んでいきましょう。    
-「UniRxって何?」 て聞かれた時のために。
+以下、README.md を読んでいきましょう。    
+「UniRx って何?」て聞かれた時のために。
 
 ## README.md (!原文ママ)
 ---    
@@ -31,23 +31,23 @@ neuecc さんによるUnity用のRxライブらりなのだ(小並感)
 > UniRx is available on the Unity Asset Store (FREE) - http://u3d.as/content/neuecc/uni-rx-reactive-extensions-for-unity/7tT
 - Asset storeから"無料で"入手可。
 
-うーんと、Reactive Extentionがどういうものかは知ってる前提なんですかね?    
-ちなみに、READMEはこの後サンプルが続きます。
+うーんと、Reactive Extention がどういうものかは知ってる前提なんですかね?    
+ちなみに、README はこの後サンプルが続きます。
 
  ## Reactive Extentions とは
  --- 
- 困った時のwikipediaっすね。
+ 困った時の wikipedia っすね。
 
- wikipediaをかいつまむと以下です。    
+ wikipedia をかいつまむと以下です。    
      
-- オブザーバーパターンによる、非同期処理のAPIのことであると.
+- オブザーバーパターンによる、非同期処理の API のことであると.
 - 非同期処理っつーのは,基本的には"call back"を持つもので、プログラマは関数の終了時にコールバックできるよね。
 - この方法はオーバーヘッドを避けれるからいいよねーと。
 
-``オブザーバーパターン``: 監視するパターン(Rx Extentionにおいては、ストリームの監視な気がします。)    
+``オブザーバーパターン``: 監視するパターン(Rx Extention においては、ストリームの監視な気がします。)    
 ``オーバーヘッド``: 余分な処理による負荷
 
-- ストリームは以下の3つのイベント時に、それぞれの値を発行しますと。
+- ストリームは以下の 3 つのイベント時に、それぞれの値を発行しますと。
     - next
     - error
     - complete
@@ -60,6 +60,6 @@ neuecc さんによるUnity用のRxライブらりなのだ(小並感)
     
 と言いたいです。
 
-購読さえしていれば、nextとして任意の値をストリームに流すと、購読していたイベントを、任意のタイミングで、複数回呼べるのがとても便利です。
+購読さえしていれば、next として任意の値をストリームに流すと、購読していたイベントを、任意のタイミングで、複数回呼べるのがとても便利です。
 
 次回から、コードをみていきましょう。
