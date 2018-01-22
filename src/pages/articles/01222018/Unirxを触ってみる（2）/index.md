@@ -14,10 +14,11 @@ description: UniRx, Subject, observable
 ### アセットストアからUniRxをインポート
 ---
 アセットストアですぐに見つかります。 
-<img height="310" src="./assetStore.png" alt="importingAsset">
     
 追加したら, ``using``を忘れずに。
-<img height="310" src="./using.png" alt="importingAsset">
+```csharp
+using UniRx;
+```
 
 ### Subjectを使ってみる。
 ---
@@ -31,7 +32,7 @@ Subject<T> hogehoge = new Subject<T>();
 ```csharp
 Subject<string> text = new Subject<stirng>();
 ```
-上記の例だと、stringの値が流れてくるストリームソースの作成に成功です。
+上記の例だと、string の値が流れてくるストリームソースの作成に成功です。
         
 
 ストリームに値が流れたときの処理は,
@@ -64,12 +65,12 @@ public class FirstSceneController : MonoBehaviour
     }
 }
 ```
-Start関数内で、購読の処理(subscribe)とストリームに値を流す処理を書いています。    
-この後、onNextは値を変えたり、呼ぶタイミングを変えたりしながら、Subjectが破棄されるまで何回でも呼ぶことができます。
+Start 関数内で、購読の処理(subscribe)とストリームに値を流す処理を書いています。    
+この後、onNext は値を変えたり、呼ぶタイミングを変えたりしながら、Subject が破棄されるまで何回でも呼ぶことができます。
 
 ### click eventをストリームにしてみる。
 ---
-UniRxを使えば、uGUIのクリック処理を以下のように書くことができます。
+UniRx を使えば、uGUI のクリック処理を以下のように書くことができます。
 ```csharp
 using UnityEngine;
 using UnityEngine.UI;
