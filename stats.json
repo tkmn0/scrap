@@ -33,12 +33,16 @@
       "component---src-layouts-index-js-1cbf87002965a66be24b.js.map"
     ],
     "path---index": [
-      "path---index-ccd03feec3800993a0dd.js",
-      "path---index-ccd03feec3800993a0dd.js.map"
+      "path---index-5fdc0da6b0a6d3dec6a8.js",
+      "path---index-5fdc0da6b0a6d3dec6a8.js.map"
     ],
     "path---hello-world": [
       "path---hello-world-644185012f2662e8fb7a.js",
       "path---hello-world-644185012f2662e8fb7a.js.map"
+    ],
+    "path---01232018-swift-4-callback-01": [
+      "path---01232018-swift-4-callback-01-babedfd5dffcc1944684.js",
+      "path---01232018-swift-4-callback-01-babedfd5dffcc1944684.js.map"
     ],
     "commons": [
       "commons-445bf986b5bd5bec93ca.js",
@@ -51,9 +55,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a0493569b2ba99cb2e3b.js",
+      "app-031db28894d45e089fce.js",
       "build-js-styles.css",
-      "app-a0493569b2ba99cb2e3b.js.map",
+      "app-031db28894d45e089fce.js.map",
       "build-js-styles.css.map"
     ],
     "path---01072018-gatsby-01": [
