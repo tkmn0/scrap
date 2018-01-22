@@ -73,7 +73,8 @@ webpackJsonp([107818501498521],[
 
 /***/ }),
 /* 6 */,
-/* 7 */
+/* 7 */,
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var Symbol = __webpack_require__(16),
@@ -107,7 +108,6 @@ webpackJsonp([107818501498521],[
 
 
 /***/ }),
-/* 8 */,
 /* 9 */,
 /* 10 */,
 /* 11 */
@@ -265,7 +265,8 @@ webpackJsonp([107818501498521],[
 /***/ }),
 /* 21 */,
 /* 22 */,
-/* 23 */
+/* 23 */,
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var baseGet = __webpack_require__(81);
@@ -304,10 +305,10 @@ webpackJsonp([107818501498521],[
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseGetTag = __webpack_require__(7),
+	var baseGetTag = __webpack_require__(8),
 	    isObjectLike = __webpack_require__(11);
 	
 	/** `Object#toString` result references. */
@@ -339,7 +340,6 @@ webpackJsonp([107818501498521],[
 
 
 /***/ }),
-/* 25 */,
 /* 26 */,
 /* 27 */,
 /* 28 */,
@@ -475,7 +475,7 @@ webpackJsonp([107818501498521],[
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var isSymbol = __webpack_require__(24);
+	var isSymbol = __webpack_require__(25);
 	
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0;
@@ -661,7 +661,7 @@ webpackJsonp([107818501498521],[
 /***/ (function(module, exports, __webpack_require__) {
 
 	var isArray = __webpack_require__(4),
-	    isSymbol = __webpack_require__(24);
+	    isSymbol = __webpack_require__(25);
 	
 	/** Used to match property names within property paths. */
 	var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
@@ -812,7 +812,7 @@ webpackJsonp([107818501498521],[
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseGetTag = __webpack_require__(7),
+	var baseGetTag = __webpack_require__(8),
 	    isObject = __webpack_require__(30);
 	
 	/** `Object#toString` result references. */
@@ -1146,7 +1146,7 @@ webpackJsonp([107818501498521],[
 	    Promise = __webpack_require__(133),
 	    Set = __webpack_require__(134),
 	    WeakMap = __webpack_require__(135),
-	    baseGetTag = __webpack_require__(7),
+	    baseGetTag = __webpack_require__(8),
 	    toSource = __webpack_require__(58);
 	
 	/** `Object#toString` result references. */
@@ -1364,7 +1364,7 @@ webpackJsonp([107818501498521],[
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
-	var _get = __webpack_require__(23);
+	var _get = __webpack_require__(24);
 	
 	var _get2 = _interopRequireDefault(_get);
 	
@@ -1425,7 +1425,7 @@ webpackJsonp([107818501498521],[
 	
 	var _forEach2 = _interopRequireDefault(_forEach);
 	
-	var _get = __webpack_require__(23);
+	var _get = __webpack_require__(24);
 	
 	var _get2 = _interopRequireDefault(_get);
 	
@@ -2095,7 +2095,7 @@ webpackJsonp([107818501498521],[
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseGetTag = __webpack_require__(7),
+	var baseGetTag = __webpack_require__(8),
 	    isObjectLike = __webpack_require__(11);
 	
 	/** `Object#toString` result references. */
@@ -2172,7 +2172,7 @@ webpackJsonp([107818501498521],[
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseGetTag = __webpack_require__(7),
+	var baseGetTag = __webpack_require__(8),
 	    isLength = __webpack_require__(48),
 	    isObjectLike = __webpack_require__(11);
 	
@@ -2267,7 +2267,7 @@ webpackJsonp([107818501498521],[
 	var Symbol = __webpack_require__(16),
 	    arrayMap = __webpack_require__(79),
 	    isArray = __webpack_require__(4),
-	    isSymbol = __webpack_require__(24);
+	    isSymbol = __webpack_require__(25);
 	
 	/** Used as references for various `Number` constants. */
 	var INFINITY = 1 / 0;
@@ -3259,7 +3259,7 @@ webpackJsonp([107818501498521],[
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	var baseGetTag = __webpack_require__(7),
+	var baseGetTag = __webpack_require__(8),
 	    isArray = __webpack_require__(4),
 	    isObjectLike = __webpack_require__(11);
 	
@@ -4583,7 +4583,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	__webpack_require__(433);
+	__webpack_require__(435);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4624,7 +4624,7 @@ webpackJsonp([107818501498521],[
 	exports.__esModule = true;
 	exports.pageQuery = undefined;
 	
-	var _get = __webpack_require__(23);
+	var _get = __webpack_require__(24);
 	
 	var _get2 = _interopRequireDefault(_get);
 	
@@ -4640,7 +4640,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _striptags = __webpack_require__(461);
+	var _striptags = __webpack_require__(463);
 	
 	var _striptags2 = _interopRequireDefault(_striptags);
 	
@@ -4883,14 +4883,14 @@ webpackJsonp([107818501498521],[
 /* 430 */,
 /* 431 */,
 /* 432 */,
-/* 433 */
+/* 433 */,
+/* 434 */,
+/* 435 */
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
-/* 434 */,
-/* 435 */,
 /* 436 */,
 /* 437 */,
 /* 438 */,
@@ -4916,7 +4916,9 @@ webpackJsonp([107818501498521],[
 /* 458 */,
 /* 459 */,
 /* 460 */,
-/* 461 */
+/* 461 */,
+/* 462 */,
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
