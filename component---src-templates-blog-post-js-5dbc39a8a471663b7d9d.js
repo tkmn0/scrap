@@ -1360,7 +1360,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _gatsbyLink = __webpack_require__(15);
+	var _gatsbyLink = __webpack_require__(16);
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
@@ -1417,7 +1417,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _gatsbyLink = __webpack_require__(15);
+	var _gatsbyLink = __webpack_require__(16);
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
@@ -4583,7 +4583,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	__webpack_require__(437);
+	__webpack_require__(439);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4632,7 +4632,7 @@ webpackJsonp([107818501498521],[
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
-	var _gatsbyLink = __webpack_require__(15);
+	var _gatsbyLink = __webpack_require__(16);
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
@@ -4640,7 +4640,7 @@ webpackJsonp([107818501498521],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _striptags = __webpack_require__(465);
+	var _striptags = __webpack_require__(467);
 	
 	var _striptags2 = _interopRequireDefault(_striptags);
 	
@@ -4887,14 +4887,14 @@ webpackJsonp([107818501498521],[
 /* 434 */,
 /* 435 */,
 /* 436 */,
-/* 437 */
+/* 437 */,
+/* 438 */,
+/* 439 */
 /***/ (function(module, exports) {
 
 	// empty (null-loader)
 
 /***/ }),
-/* 438 */,
-/* 439 */,
 /* 440 */,
 /* 441 */,
 /* 442 */,
@@ -4920,7 +4920,9 @@ webpackJsonp([107818501498521],[
 /* 462 */,
 /* 463 */,
 /* 464 */,
-/* 465 */
+/* 465 */,
+/* 466 */,
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
