@@ -10,10 +10,10 @@ categories:
 description: swift swift4 callback closure 無名関数 Swift Swift4
 ---
 Swift4 でコールバック処理を調べてみる。    
-Swiftにおけるコールバックのやり方は主に以下の3通りかと思われる。
+Swift におけるコールバックのやり方は主に以下の 3 通りかと思われる。
 - クロージャによるコールバック
-- Delegateを使ったコールバック
-- IObserverを使ったコールバック
+- Delegate を使ったコールバック
+- IObserver を使ったコールバック
 
 今回は``クロージャ``によるコールバックについて。
 <!--more-->
@@ -93,11 +93,11 @@ sayHello(callback: callback())
 //"say"
 //"done"
 ```
-上記失敗例は、引数にcallback関数を渡した時点で、callback``()``により、callback関数を読んでしまっている。成功例では、callback関数がsayHello関数内で呼ばれている。
-printの結果の順番を比べていただきたい。
+上記失敗例は、引数に callback 関数を渡した時点で、callback``()``により、callback 関数を読んでしまっている。成功例では、callback 関数が sayHello 関数内で呼ばれている。
+print の結果の順番を比べていただきたい。
 
 ##### 5. 無名関数(クロージャ)を引数にする。
-No.4では、わざわざcallback関数を宣言してから引数に渡している。    
+No.4 では、わざわざ callback 関数を宣言してから引数に渡している。    
 この時、引数に渡す時に関数を宣言できたら...?    
 ```swift
 func sayHello(callback: () -> Void){
@@ -156,4 +156,4 @@ sayHello { (text) -> Int in
 どうでしょうか?
 この流れを理解していればコードを読んでて、急にわからなくなる事が減ったり、関数がネストせずに書けたりするのではないでしょうか?    
 分からなくなったら落ち着いて、関数を二つ書いてしまえば、整理できるかもしれません。
-以上、Swift4におけるクロージャについて基礎基礎でした。
+以上、Swift4 におけるクロージャについて基礎基礎でした。
