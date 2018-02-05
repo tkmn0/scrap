@@ -1,16 +1,19 @@
 ---
-title: Swfit4でコールバック(２)
+title: Swfit4でコールバック(2)
 date: "2018-02-04T03:50:40.121Z"
 layout: post
 path: "/swift4_callback_02/"
 categories:
- - hoge
-description: fasfas
+ - Swift
+ - Swift4
+ - Callback
+ - コールバック
+description: swift swift4 callback Delegate デリゲート コールバック
 ---
 
 - クロージャによるコールバック
 - Delegate を使ったコールバック
-- IObserver を使ったコールバック
+- NotificationCenter を使ったコールバック
 
 今回は``Delegate``を使ったコールバックをゆるゆる紹介します。
   <!--more-->

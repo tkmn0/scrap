@@ -1,5 +1,5 @@
 ---
-title: Swift4でコールバック（1）
+title: Swift4でコールバック(1)
 date: "2018-01-23T02:23:04.121Z"
 layout: post
 path: "/swift4_callback_01/"
@@ -13,7 +13,7 @@ Swift4 でコールバック処理を調べてみる。
 Swift におけるコールバックのやり方は主に以下の 3 通りかと思われる。
 - クロージャによるコールバック
 - Delegate を使ったコールバック
-- IObserver を使ったコールバック
+- NotificationCenter を使ったコールバック
 
 今回は``クロージャ``によるコールバックについて。
 <!--more-->
