@@ -2,7 +2,7 @@
 title: Swift4でコールバック（1）
 date: "2018-01-23T02:23:04.121Z"
 layout: post
-path: "/01232018/swift4_callback_01/"
+path: "/swift4_callback_01/"
 categories:
  - Swift
  - Swift4

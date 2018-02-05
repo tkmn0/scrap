@@ -2,7 +2,7 @@
 title: Swfit4でコールバック(２)
 date: "2018-02-04T03:50:40.121Z"
 layout: post
-path: "/02042018/swift4_callback_02/"
+path: "/swift4_callback_02/"
 categories:
  - hoge
 description: fasfas
@@ -132,7 +132,7 @@ class ViewController: UIViewController {
 }
 ```
 各 View を tap で"touched"とログを吐きます。
-     
+<img style="height: 100px;" src="./colorview.png" alt="colorviewpng">
 
 #### Delegateの準備
 ---

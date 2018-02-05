@@ -2,7 +2,7 @@
 title: Gatsbyのご紹介。
 date: "2018-01-06T04:59:24.121Z"
 layout: post
-path: "/01072018/gatsby01/"
+path: "/gatsby01/"
 categories:
  - ブログ
 description: 

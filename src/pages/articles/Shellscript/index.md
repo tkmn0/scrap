@@ -2,7 +2,7 @@
 title: シェルスクリプトで記事のテンプレ作成
 date: "2018-01-07T03:40:36.121Z"
 layout: post
-path: "/01072018/shell_script/"
+path: "/shell_script/"
 categories:
  - shellscript 
  - 効率化
