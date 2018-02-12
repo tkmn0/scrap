@@ -16,6 +16,9 @@ description: UniRx, Subject, observable
 アセットストアですぐに見つかります。 
     
 追加したら, ``using``を忘れずに。
+
+<img height="310" src="../using.png" alt="using.png">
+
 ```csharp
 using UniRx;
 ```
