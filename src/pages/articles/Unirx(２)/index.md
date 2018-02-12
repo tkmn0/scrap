@@ -2,7 +2,7 @@
 title: Unirxを触ってみる（2）
 date: "2018-01-22T22:50:25.121Z"
 layout: post
-path: "/01222018/UniRx_02/"
+path: "/UniRx_02/"
 categories:
  - C# 
  - Unity
