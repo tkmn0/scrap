@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'n0の断片',
     description: 'メモとか、スニペットとか',
-    siteUrl: 'https://tkmn0.github.io/scrap/',
+    siteUrl: 'https://tkmn0.github.io/scrap',
     author: 'n0',
     twitter: 'n0',
     adsense: '',
@@ -75,6 +75,28 @@ module.exports = {
         trackingId: '',
       },
     },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/sitemap.xml',
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+      }`,
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify',
     'gatsby-plugin-offline',
@@ -82,7 +104,7 @@ module.exports = {
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sitemap',
+    // 'gatsby-plugin-sitemap',
     'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
   ],

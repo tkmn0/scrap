@@ -1,5 +1,5 @@
 ---
-title: Unirxを触ってみる（2）
+title: Unirxを触ってみる(2)
 date: "2018-01-22T22:50:25.121Z"
 layout: post
 path: "/UniRx_02/"
@@ -17,7 +17,7 @@ description: UniRx, Subject, observable
     
 追加したら, ``using``を忘れずに。
 
-<img height="310" src="../using.png" alt="using.png">
+<img style="height: 100" src="./using.png" alt="using.png">
 
 ```csharp
 using UniRx;

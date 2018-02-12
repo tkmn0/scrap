@@ -1,5 +1,5 @@
 ---
-title: UniRxを触ってみる（１）
+title: UniRxを触ってみる(1)
 date: "2018-01-13T03:50:40.121Z"
 layout: post
 path: "/UniRx_01/"
